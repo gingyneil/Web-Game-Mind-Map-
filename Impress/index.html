@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/Main.css" rel="stylesheet"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--mobile-->
+    <title>Demo impress</title>
+</head>
+<body onload="init();">
+    <div id="impress">
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <p>You wake up on an island your plane crashed and you
+                 have no resources. Search for survivors or find food.</p>
+                <p><a href="#2b">Search </a>for survivors?</p>
+                <p><a href="#2a">Find food?</a></p> 
+                <br />
+                <br/>
+                <img src="assets/images/palmtree.jpg" style="position: fixed; bottom: 40px; right:  40px;" />
+            </div>
+        </div>
+
+        <div id="2a" class="step slide" data-x="1500" data-z="500">
+            <div class="slide-text">
+                <p>You choose search for food good idea. You find a coconut tree 
+                    and a banana tree. What do you want to check out first.
+                    <a href="#3a"> Coconut</a> or <a href="#3b"> Banana? </a></p> 
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div> 
+        </div>
+
+        <div id="2b" class="step slide" data-x="-1500" data-z="500">
+            <div class="slide-text">
+                <p>
+                    You choose search for survivors good idea. You search
+                    and search for miles but nothing, everyone dissintagrated
+                    and died. Its getting late time to sleep.
+                    As the sun sets you notice lights on an island nearby not that far,
+                    maybe 2km's.
+                <p><a href="#3c">Swim</a> to the lights<p> or<br />
+                <p>
+                    <a href="#3d">Rest </a>and wait
+                    until the morning?
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="3a" class="step slide" data-x="3000" data-y="10000">
+            <div class="slide-text">
+                <p>
+                    You chose Coconut tree nice, who doesnt love coconuts? 
+                    Okay how should we do this, do you want
+                    <a href="#4a"> climb up it </a> or
+                     try to <a href="#4b"> shake</a> some off it?
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="3b" class="step slide" data-x="4500">
+            <div class="slide-text">
+                <p>
+                    Cool you chose banana tree, who doesnt love bananas? 
+                    So how do you want to do this? <a href="#4c"> Climb </a> it or <a href="#4d"> Shake</a> some off?
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="3c" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You choose swim good idea because youre a natural swimmer 
+                    and have a vicious breast stroke. Oh no! half way into your 
+                    easy swim you notice sharks circling you, <a href="#4e"> Power stroke</a> the rest 
+                    of the way and make that swim to the island or <a href="#4f"> swim back </a>and start a new plan?
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="3d" class="step slide" data-x="-4500">
+            <div class="slide-text">
+                <p>
+                    You choose to rest, good idea. If there lights on that island then 
+                    people must have seen that plane crash, you'll get rescued soon.
+                     Well now you really need some food but you should start building a raft to
+                     get to that island. <a href="#4g">Food</a> or <a href="#4h"> Build</a> the raft.
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4a" class="step slide" data-y="1500">
+            <div class="slide-text">
+                <p>
+                    Nice you chose climb it, awesome you made it to the top, you're a good climber.
+                     You DIE, you climbed it so fast that you gassed yourself at the top and on your
+                     way back down you fall to your death.
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4b" class="step slide" data-y="3000">
+            <div class="slide-text">
+                <p>
+                    Nice you chose shake the coconut tree! It worked! Some fell off, but you DIE! 
+                    One fell off and hit you on the noggen.
+                     Did you know coconuts account for 150 deaths annually.
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4c" class="step slide" data-y="4500">
+            <div class="slide-text">
+                <p>
+                    Nice you chose climb it, awesome you made it to the top, 
+                    you're a good climber. You DIE,  you climbed it so fast that you 
+                    gassed yourself at the top and on your way back down you fall to your death.
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4d" class="step slide" data-y="6000">
+            <div class="slide-text">
+                <p>
+                    Nice you chose shake the banana tree! It worked! Some fell off, but you DIE! 
+                    You got plenty of bananas but you also shook a tarantula off the tree and it
+                     landed on your face. It bites you, what a horrible way to go.
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4e" class="step slide" data-y="7500">
+            <div class="slide-text">
+                <p>
+                    You choose swim to the island NICE! youre not afraid of sharks after all.
+                     In fact cows cause more deaths then shark attacks each year. 
+                     But you cant escape these sharks, they eat you and you DIE
+
+                    <img src="assets/images/200.gif" />
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4f" class="step slide" data-y="9000">
+            <div class="slide-text">
+                <p>
+                    You choose swim back to the island. Nice you beat the sharks 
+                    but you DIE from exhaustion and starvation. You probably should have
+                     searched for food earlier.
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4g" class="step slide" data-y="10500">
+            <div class="slide-text">
+                <p>
+                    You chose Food good idea. You get to a coconut tree its too tall to climb.
+                     You try shaking it and DIE. A coconut lands on
+                     your heads with a crushing blow. Did you know coconuts are responsible
+                     for 150 deaths annually?
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+
+        <div id="4h" class="step slide" data-y="12000">
+            <div class="slide-text">
+                <p>
+                    CONGRATS!! You chose build raft, good idea those waters are filled with sharks. 
+                    That after noon you finish the raft and paddle to safety
+                     on the neighboring island and find help. CONGRATS 
+                </p>
+            </div>
+            <div class="menu"><a href="#1">START OVER</a></div>
+        </div>
+    </div>
+
+    
+    <!--Js section-->
+    <script src="scripts/libs/impress.js"></script>
+
+    <script src="scripts/game.js"></script>
+   <!-- <script> impress().init();</script> -->
+</body>
+</html>
